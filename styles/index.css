@@ -1,4 +1,4 @@
-*{
+* {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
 }
@@ -6,4 +6,81 @@
 .font2 {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-  }
+    font-style: italic;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 50px;
+}
+
+.btn-1 {
+    border: 1px solid #E6533C;
+    background-color: #E6533C;
+    border-radius: 40px;
+    padding: 12px;
+    color: white;
+}
+
+.btn-1:hover {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 12px;
+}
+
+.btn-2 {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 12px;
+
+}
+
+.btn-2:hover {
+    border: 1px solid #E6533C;
+    background-color: #E6533C;
+    border-radius: 40px;
+    padding: 12px;
+    color: white;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-container {
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 40px;
+}
+
+.nav-container>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+    width: 350px;
+    height: 5px;
+}
+
+.nav-container>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container>ul>li:hover {
+    border: 1px solid #E6533C;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: #E6533C;
+    color: white;
+}
